@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  li.phone-number {
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  li.phone-number i {
+    margin-left: 700px;
+  }
+  .phone-third{
+    color: white;
+    list-style: none;
+    padding-left: 560px;
+  }
+  
+  .call-me-btn {
+    background-color: #599f14;
+    color: #333;
+    padding: 8px 50px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+  
+  .call-me-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul li a i {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 5px;
+  }
+
+  nav {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 40px;
+   
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+ #myCarousel img{
+   width: 1700px;
+   height: 400px;
+   
+ }
+ .carousel-caption {
+ 
+  top: 120px;
+  left: 50%;
+  
+}
+
+span{
+  color: #599f14;
+  font-size: 40px;
+}
+.team-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.About-us{
+  background-color: gray;
+}
+
+.team-member {
+  flex-basis: 20%;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.team-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 500%;
+  
+}
+
+.team-member h3 {
+  font-size: 24px;
+  margin: 10px 0 5px 0;
+}
+
+.team-member p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.about{
+  background-color: #eeee;
+}
+
+.service{
+  background: white;
+}
+
+
+.next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card-one{
+  height: 300px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card-one img{
+  width: 50px;
+  height: 50%;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color:#f9004d;
+}
+
+h5{
+  color: black;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p{
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card-one .button{
+  background-color: #42a66c;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.card-one .button:hover{
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+.portfolio{
+  background: black;
+}
+.para-portfolio{
+  text-align: center;
+  color: white;
+  word-spacing: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.logo-portfolio{
+  color: orange;
+  font-size: 16px;
+}
+.card-group{
+  
+  padding-left: 70px;
+  padding-right: 70px;
+  
+}
+.card{
+  height: 250px;
+  width: 230px;
+}
+.card img{
+  width: 200px;
+  height: 150px;
+  padding: 30px 35px;
+ 
+ 
+}
+
+.port{
+  color: orange;
+  font-size: 24px;
+}
+.process img{
+  width: 1000px;
+}
+.process-pra{
+  padding-left:300px;
+  word-spacing: 80px;
+  font-weight: bold;
+}
+.process-p{
+   font-size: 12px;
+   padding-left: 300px;
+   color:rgba(128, 128, 128, 0.909);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.container
+{
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+.container .card
+{
+    position: relative;
+    width: 250px;
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container .card:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+.container .card::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.03);
+    pointer-events: none;
+    z-index: 1;
+}
+.percent
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #222;
+    z-index: 1000;
+}
+.percent .number
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.percent .number h2
+{
+    color: #777;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.card:hover .percent .number h2
+{
+    color: #fff;
+    font-size: 60px;
+}
+.percent .number h2 span
+{
+    font-size: 24px;
+    color: #777;
+}
+.card:hover .percent .number h2 span
+{
+    color: #fff;
+}
+.text
+{
+    position: relative;
+    color: #777;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.card:hover .text
+{
+    color: #fff;
+}
+svg
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+svg circle
+{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2)
+{
+   stroke-dasharray: 440;
+   stroke-dashoffset: 440; 
+}
+.card:nth-child(1) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 45) / 100);
+    stroke: yellow;
+}
+.card:nth-child(2) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: red;
+}
+.card:nth-child(3) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke: green;
+}
+.card:nth-child(4) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke: cornflowerblue;
+}
+input[type=text], select {
+  width: 200px;
+  padding: 5px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 200px;
+  padding: 5px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 200px;
+  padding: 5px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 150px;
+  background-color: orange;
+  color: black;
+  padding: 5px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.phone-one{
+  list-style: none;
+  padding-left: 560px;
+  
+}
+
+
+
+ 
